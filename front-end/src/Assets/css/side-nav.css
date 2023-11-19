@@ -1,0 +1,132 @@
+.leftside-menu {
+  width: 260px;
+  z-index: 10;
+  background: linear-gradient(135deg, #6379c3 0, #546ee5 60%);
+  bottom: 0;
+  position: fixed;
+  top: 0;
+  padding-top: 70px;
+  -webkit-box-shadow: 0 0 35px 0 rgba(49, 57, 66, 0.5);
+  box-shadow: 0 0 35px 0 rgba(49, 57, 66, 0.5);
+}
+.side-nav {
+  padding-left: 0;
+  list-style-type: none;
+}
+.side-nav ul {
+  list-style-type: none;
+}
+.side-nav .side-nav-link {
+  color: #cedce4;
+  display: block;
+  padding: 10px 30px;
+  font-size: 0.9375rem;
+  position: relative;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  list-style: none;
+}
+.side-nav .side-nav-link:active,
+.side-nav .side-nav-link:focus,
+.side-nav .side-nav-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.side-nav .side-nav-link span {
+  vertical-align: middle;
+}
+.side-nav .side-nav-link i {
+  display: inline-block;
+  line-height: 1.0625rem;
+  margin: 0 10px 0 0;
+  font-size: 1.1rem;
+  vertical-align: middle;
+  width: 20px;
+}
+.side-nav .menu-arrow {
+  -webkit-transition: -webkit-transform 0.15s;
+  transition: -webkit-transform 0.15s;
+  transition: transform 0.15s;
+  transition: transform 0.15s, -webkit-transform 0.15s;
+  position: absolute;
+  right: 30px;
+  display: inline-block;
+  font-family: "Material Design Icons";
+  text-rendering: auto;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.side-nav .menu-arrow:before {
+  content: "\F0142";
+}
+.side-nav .badge {
+  margin-top: 3px;
+}
+.side-nav .side-nav-item > a[aria-expanded="true"] > span.menu-arrow {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.side-nav .side-nav-item.menuitem-active > a:not(.collapsed) > span.menu-arrow {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.side-nav .side-nav-title {
+  padding: 12px 30px;
+  letter-spacing: 0.05em;
+  pointer-events: none;
+  cursor: default;
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  color: #cedce4;
+  font-weight: 700;
+}
+.side-nav .menuitem-active > a {
+  color: #fff !important;
+}
+[dir="rtl"] .side-nav .menu-arrow:before {
+  content: "\F0141";
+  display: none;
+}
+.side-nav-forth-level,
+.side-nav-second-level,
+.side-nav-third-level {
+  padding-left: 0;
+}
+.side-nav-forth-level li a,
+.side-nav-second-level li a,
+.side-nav-third-level li a {
+  padding: 8px 30px 8px 65px;
+  color: #cedce4;
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  font-size: 0.89rem;
+}
+.side-nav-forth-level li a:focus,
+.side-nav-forth-level li a:hover,
+.side-nav-second-level li a:focus,
+.side-nav-second-level li a:hover,
+.side-nav-third-level li a:focus,
+.side-nav-third-level li a:hover {
+  color: #fff;
+}
+.side-nav-forth-level li a .menu-arrow,
+.side-nav-second-level li a .menu-arrow,
+.side-nav-third-level li a .menu-arrow {
+  line-height: 1.3rem;
+}
+.side-nav-forth-level li.active > a,
+.side-nav-second-level li.active > a,
+.side-nav-third-level li.active > a {
+  color: #fff;
+}
+.side-nav-third-level li a {
+  padding: 8px 30px 8px 80px;
+}
+.side-nav-forth-level li a {
+  padding: 8px 30px 8px 100px;
+}

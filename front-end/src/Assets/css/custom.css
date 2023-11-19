@@ -1,0 +1,371 @@
+body {
+  font-family: var(--bs-font-sans-serif);
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #aab8c5;
+  background-color: #343a40;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+
+.login-message {
+  color: brown;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.modal-custom .modal-content {
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.modal-custom .modal-header {
+  background-color: #3a444e;
+  font-weight: lighter;
+  border-radius: 0;
+}
+
+.modal-custom .modal-header .modal-title {
+  font-weight: lighter;
+}
+
+.modal-custom .modal-body {
+  background-color: #45515d;
+}
+
+.modal-custom .modal-footer {
+  background-color: #3a444e;
+  border-radius: 0;
+}
+
+.form-control-dark {
+  border-color: #3a444e;
+  color: #aab8c5;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #45515d;
+}
+
+.tab-button {
+  padding: 0.3rem 0.5rem;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs {
+  color: #fff;
+  background-color: #45515d;
+  border-color: #45515d;
+  border-bottom: none;
+}
+
+.nav-link.active {
+  color: rgb(37, 37, 37);
+  background-color: #fff;
+  border-color: #fff;
+  border-bottom: none;
+}
+
+.nav-link:hover {
+  color: rgb(204, 204, 204);
+  border-color: #fff;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link:hover {
+  border-color: #45515d;
+  color: #efefef;
+}
+
+table th {
+  font-weight: normal;
+}
+
+table td {
+  font-weight: lighter;
+}
+
+.navbar-brand {
+  background-color: #45515d;
+}
+
+.navbar-brand span {
+  font-size: 0.5rem;
+  font-weight: lighter;
+}
+
+.bg-dark-custom {
+  background-color: #3a444e;
+}
+
+.navbar-user {
+  background-color: #45515d;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+}
+
+.bg-dark-custom-2 {
+  background-color: #45515d;
+}
+
+.directories {
+  background: url("https://coderthemes.com/hyper/modern/assets/images/waves.png")
+    no-repeat;
+  height: 90vh;
+}
+
+.directories-title {
+  text-align: center;
+  color: #aab8c5 !important;
+}
+
+.side-nav {
+  list-style: none;
+}
+
+.side-nav .side-nav-item a {
+  text-decoration: none;
+  color: #aab8c5;
+  display: block;
+  padding: 8px 5px;
+  font-size: 0.9375rem;
+  position: relative;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  list-style: none;
+  cursor: pointer;
+}
+
+.side-nav .side-nav-item a:hover {
+  color: #ebebeb !important;
+  background-color: #45515d;
+}
+
+.side-nav .side-nav-item a.active {
+  color: black !important;
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.side-nav .side-nav-item a i {
+  display: inline-block;
+  line-height: 1.0625rem;
+  margin: 0 10px 0 0;
+  font-size: 1.1rem;
+  vertical-align: middle;
+  width: 20px;
+}
+
+.side-nav .side-nav-item a span {
+  vertical-align: middle;
+}
+
+.assets {
+  height: 90vh;
+  overflow: auto;
+}
+
+.asset-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  /* border: 1px solid rgba(0, 0, 0, .125); */
+  margin-bottom: 1.5rem;
+  background-color: #3a444e;
+  cursor: pointer;
+}
+
+.asset-card .thumbnail {
+  width: 100%;
+  background-color: #000;
+  overflow: hidden;
+  text-align: center;
+}
+
+.asset-card .thumbnail img {
+  max-height: 90;
+  margin: auto;
+}
+
+.asset-card .asset-card-info {
+  color: #fff;
+  height: 90px;
+  padding: 8px;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  line-height: 1.7em;
+  overflow: hidden;
+}
+
+.asset-card:hover {
+  background-color: #555555;
+  color: #000000;
+  transition: background-color 0.4s;
+}
+
+.asset-card .asset-card-info table {
+  width: 80%;
+  font-size: 0.8rem;
+}
+
+.asset-card .asset-card-info table th,
+.asset-card .asset-card-info table td {
+  padding: 2px;
+}
+
+.slide-pane__header {
+  background-color: #000;
+  font-weight: lighter;
+}
+
+.slide-pane__content {
+  background-color: #24292d;
+}
+
+/* .dropdown-toggle {
+    outline: 0;
+} */
+
+/* .player{
+  height: 90vh;
+  overflow: hidden;
+} */
+
+.sidebar {
+  background-color: #202020;
+  width: 16rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  z-index: 2;
+  /* width: 260px;
+  min-width: 260px;
+  max-width: 260px;
+  position: relative;
+  background-color: #37404a;
+  box-shadow: 0 0 35px 0 rgb(49 57 66 / 50%);
+  bottom: 0; */
+}
+
+.side-nav {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.sidebar .side-nav .side-nav-title {
+  color: #8391a2;
+  padding: 12px 30px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+.sidebar .side-nav .side-nav-link {
+  color: #8391a2;
+  display: block;
+  padding: 10px 30px;
+  font-size: 0.9rem;
+  position: relative;
+  transition: all 0.4s;
+  list-style: none;
+}
+
+.sidebar .side-nav .side-nav-link i {
+  display: inline-block;
+  line-height: 1.0625rem;
+  margin: 0 10px 0 0;
+  font-size: 1.1rem;
+  vertical-align: middle;
+  width: 20px;
+}
+
+.sidebar .side-nav .side-nav-link span {
+  vertical-align: middle;
+}
+
+.sidebar .side-nav .side-nav-link:hover {
+  color: #cedce4;
+}
+
+.content-page {
+  display: flex;
+  overflow-x: hidden;
+  width: 100%;
+  min-height: calc(100vh - 50px);
+  padding-top: 0.5rem;
+  flex-wrap: wrap;
+  /* overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-bottom: 60px;
+  min-height: 91vh; */
+}
+
+.buttons-container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: var(--bs-dark);
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: var(--bs-gray-800);
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* .active {
+  background-color: rgb(194, 194, 194);
+} */
